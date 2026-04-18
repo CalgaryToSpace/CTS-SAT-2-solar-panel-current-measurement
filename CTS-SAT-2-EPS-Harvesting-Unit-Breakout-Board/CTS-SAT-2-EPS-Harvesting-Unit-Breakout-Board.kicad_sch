@@ -1399,11 +1399,33 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Gain = 1 + (R1/R3)"
+		(exclude_from_sim no)
+		(at 182.88 89.662 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "199d1ce4-74c8-414f-8fd3-4a7da3ef60c8")
+	)
 	(junction
 		(at 66.04 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "508aab17-7932-4300-b632-4fa2cba3ee7c")
+	)
+	(junction
+		(at 193.04 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5955231d-b4d4-4d03-9273-6c331c0df9f1")
+	)
+	(junction
+		(at 181.61 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7dc132d1-80ba-42c8-be97-1ab8956c4db2")
 	)
 	(junction
 		(at 92.71 68.58)
@@ -1421,7 +1443,7 @@
 		(at 181.61 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b58a896a-030f-4735-8ac8-75b13da3a527")
+		(uuid "cbb6bd8b-6059-4857-9987-0e93ffed847c")
 	)
 	(junction
 		(at 78.74 68.58)
@@ -1436,26 +1458,10 @@
 		(uuid "e5c710cb-d688-496f-ac0e-9cb87797a881")
 	)
 	(junction
-		(at 181.61 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e9e71ca3-3bb0-467c-b160-a51c951c65e0")
-	)
-	(junction
 		(at 176.53 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f62194cb-357a-492c-9cb7-f8d7edf9d932")
-	)
-	(wire
-		(pts
-			(xy 158.75 68.58) (xy 166.37 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0115e256-d570-45a7-b023-108964c43ba1")
 	)
 	(wire
 		(pts
@@ -1465,7 +1471,27 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "16ab66c0-ae68-4570-b6cc-fb9077e3bb76")
+		(uuid "04635844-714f-4724-8833-9cf4760e9ec0")
+	)
+	(wire
+		(pts
+			(xy 92.71 73.66) (xy 97.79 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05d35649-5710-43bc-88e0-b2a108aec780")
+	)
+	(wire
+		(pts
+			(xy 45.72 73.66) (xy 45.72 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c38114e-a8d6-4e66-901d-e92776fb33fe")
 	)
 	(wire
 		(pts
@@ -1479,13 +1505,43 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 63.5) (xy 193.04 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e94a157-693d-48dc-9b15-60de1d1abae7")
+	)
+	(wire
+		(pts
+			(xy 181.61 63.5) (xy 181.61 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a6c66a1-8e04-4ddb-a2b8-a62fec2ab299")
+	)
+	(wire
+		(pts
+			(xy 193.04 63.5) (xy 212.09 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "341a9b8c-0b55-4b7a-98f5-7976cf76776f")
+	)
+	(wire
+		(pts
 			(xy 158.75 71.12) (xy 170.18 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "289322c6-7790-4765-9380-88649ba12749")
+		(uuid "3b5fd9a8-7bc6-42dd-9724-d5dc9ecbe338")
 	)
 	(wire
 		(pts
@@ -1496,6 +1552,16 @@
 			(type default)
 		)
 		(uuid "4b02bf71-b9a4-4266-9714-825422c3c209")
+	)
+	(wire
+		(pts
+			(xy 212.09 76.2) (xy 223.52 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50fad87d-988a-48dc-a995-b94099cb9556")
 	)
 	(wire
 		(pts
@@ -1529,7 +1595,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 68.58) (xy 92.71 68.58)
+			(xy 92.71 68.58) (xy 97.79 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1546,6 +1612,16 @@
 			(type default)
 		)
 		(uuid "820bc211-7983-4b46-b175-4b8c63d9ff3e")
+	)
+	(wire
+		(pts
+			(xy 158.75 82.55) (xy 158.75 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "835c41ac-3dd5-401a-b1ff-8d768106a44c")
 	)
 	(wire
 		(pts
@@ -1569,6 +1645,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 68.58) (xy 166.37 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5b6c5cb-bed7-40fa-9424-e9afaa9271ea")
+	)
+	(wire
+		(pts
 			(xy 78.74 76.2) (xy 92.71 76.2)
 		)
 		(stroke
@@ -1579,16 +1665,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 78.74) (xy 97.79 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae3f1892-a326-4908-96e9-417da8518963")
-	)
-	(wire
-		(pts
 			(xy 181.61 81.28) (xy 176.53 81.28)
 		)
 		(stroke
@@ -1596,6 +1672,16 @@
 			(type default)
 		)
 		(uuid "af4d3912-aa85-4fc3-a2e2-6fbec80ad1e5")
+	)
+	(wire
+		(pts
+			(xy 92.71 71.12) (xy 97.79 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afc760fa-34d6-49c2-a8f4-f8d7618fab2a")
 	)
 	(wire
 		(pts
@@ -1619,16 +1705,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 73.66) (xy 97.79 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be001845-42ea-4ffe-86c6-ce5c15cb5f95")
-	)
-	(wire
-		(pts
 			(xy 170.18 71.12) (xy 170.18 63.5)
 		)
 		(stroke
@@ -1636,16 +1712,6 @@
 			(type default)
 		)
 		(uuid "c1481b76-a34f-40c6-9d46-677db8bf40d5")
-	)
-	(wire
-		(pts
-			(xy 92.71 71.12) (xy 97.79 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c34d55ff-5175-46b9-88a9-90b671bd56e9")
 	)
 	(wire
 		(pts
@@ -1659,6 +1725,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 67.31) (xy 50.8 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7fe8f0b-d3c0-416b-aca6-43d8f59f7ec6")
+	)
+	(wire
+		(pts
 			(xy 176.53 81.28) (xy 172.72 81.28)
 		)
 		(stroke
@@ -1669,6 +1745,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 63.5) (xy 212.09 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd8bd167-8a23-4566-83a4-4ed1a07e2615")
+	)
+	(wire
+		(pts
 			(xy 166.37 60.96) (xy 166.37 68.58)
 		)
 		(stroke
@@ -1676,26 +1762,6 @@
 			(type default)
 		)
 		(uuid "dddcc8b0-7536-4d09-8759-11b37ade7909")
-	)
-	(wire
-		(pts
-			(xy 181.61 63.5) (xy 193.04 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de79569f-b187-457e-a14f-cbd6958e4f81")
-	)
-	(label "pwr R - 0.5W"
-		(at 77.47 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cb6623eb-cb3f-4870-8c2b-751017c17fb5")
 	)
 	(symbol
 		(lib_id "power:GNDA")
@@ -1765,16 +1831,16 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 97.79 80.01 0)
+		(at 97.79 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5678e1e3-991d-45d1-a801-79c5061d7374")
+		(uuid "3c3d4c1c-708f-40ab-8f18-4eeb657af1d6")
 		(property "Reference" "#PWR02"
-			(at 97.79 86.36 0)
+			(at 97.79 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1783,7 +1849,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 97.79 85.09 0)
+			(at 97.79 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1791,7 +1857,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 80.01 0)
+			(at 97.79 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1800,7 +1866,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 80.01 0)
+			(at 97.79 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1809,7 +1875,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 97.79 80.01 0)
+			(at 97.79 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1818,10 +1884,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "66195001-3584-45ec-a061-1557fe8d55ed")
+			(uuid "2cc608cc-78dd-4868-861b-6591f41d9893")
 		)
 		(instances
-			(project ""
+			(project "CTS-SAT-2-EPS-Harvesting-Unit-Breakout-Board"
 				(path "/cfb8f46b-0a36-43a2-a531-3db6161ed9c0"
 					(reference "#PWR02")
 					(unit 1)
@@ -1896,17 +1962,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 158.75 78.74 180)
+		(lib_id "power:GNDA")
+		(at 223.52 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "78471a9a-2cf0-4337-a3fc-9451beede3f8")
-		(property "Reference" "#PWR04"
-			(at 158.75 74.93 0)
+		(uuid "651dd960-a1e9-4bd5-abdc-6b3b1c19f9d9")
+		(property "Reference" "#PWR07"
+			(at 223.52 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1914,8 +1980,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 158.75 83.82 0)
+		(property "Value" "GNDA"
+			(at 223.52 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1923,7 +1989,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 78.74 0)
+			(at 223.52 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1932,6 +1998,45 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 223.52 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 223.52 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee8e041e-031e-4a58-b884-73295143583a")
+		)
+		(instances
+			(project ""
+				(path "/cfb8f46b-0a36-43a2-a531-3db6161ed9c0"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 158.75 82.55 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "78471a9a-2cf0-4337-a3fc-9451beede3f8")
+		(property "Reference" "#PWR04"
 			(at 158.75 78.74 0)
 			(effects
 				(font
@@ -1940,8 +2045,34 @@
 				(hide yes)
 			)
 		)
+		(property "Value" "+3.3V"
+			(at 158.496 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 158.75 78.74 0)
+			(at 158.75 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2022,6 +2153,72 @@
 			(project ""
 				(path "/cfb8f46b-0a36-43a2-a531-3db6161ed9c0"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 45.72 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d8d58f1-2070-4019-962e-bfc693cad11d")
+		(property "Reference" "#PWR08"
+			(at 45.72 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 45.72 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 45.72 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f335009-a604-4e2f-91ed-76f9b10dde36")
+		)
+		(instances
+			(project "CTS-SAT-2-EPS-Harvesting-Unit-Breakout-Board"
+				(path "/cfb8f46b-0a36-43a2-a531-3db6161ed9c0"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -2112,7 +2309,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 184.15 78.7399 0)
 			(effects
 				(font
@@ -2465,7 +2662,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "24k"
 			(at 184.15 68.5799 0)
 			(effects
 				(font
@@ -2517,6 +2714,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 218.44 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c699a86b-0098-441c-81b5-cead2c0679a7")
+		(property "Reference" "J2"
+			(at 219.075 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 219.075 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 218.44 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 218.44 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "736e3f7b-6ae6-4a13-afd0-18106cffb041")
+		)
+		(pin "2"
+			(uuid "779e5763-1957-4304-9960-03a81df11b68")
+		)
+		(instances
+			(project "CTS-SAT-2-EPS-Harvesting-Unit-Breakout-Board"
+				(path "/cfb8f46b-0a36-43a2-a531-3db6161ed9c0"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 78.74 72.39 180)
 		(unit 1)
@@ -2526,7 +2791,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e902aa22-fc43-493e-a244-5316b706c3a4")
-		(property "Reference" "R2"
+		(property "Reference" "RSense1"
 			(at 81.28 71.1199 0)
 			(effects
 				(font
@@ -2535,7 +2800,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.02"
+		(property "Value" "1m"
 			(at 81.28 73.6599 0)
 			(effects
 				(font
@@ -2580,7 +2845,7 @@
 		(instances
 			(project "CTS-SAT-2-EPS-Harvesting-Unit-Breakout-Board"
 				(path "/cfb8f46b-0a36-43a2-a531-3db6161ed9c0"
-					(reference "R2")
+					(reference "RSense1")
 					(unit 1)
 				)
 			)
