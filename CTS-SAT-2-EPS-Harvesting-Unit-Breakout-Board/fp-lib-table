@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "MAX9922")(type "KiCad")(uri "${KIPRJMOD}/MAX9922EUB_T/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "00-diode")(type "KiCad")(uri "${KIPRJMOD}/SMD22WS_TP/footprints.pretty")(options "")(descr ""))
+  (lib (name "00-logo")(type "KiCad")(uri "${KIPRJMOD}/ctslogokicad")(options "")(descr ""))
 )
